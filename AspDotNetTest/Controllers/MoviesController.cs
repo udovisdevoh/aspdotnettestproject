@@ -16,9 +16,22 @@ namespace AspDotNetTest.Controllers
         private MovieDBContext db = new MovieDBContext();
 
         // GET: /Movies/
-        public ActionResult Index()
+        public ActionResult Index(string searchString)
         {
-            return View(db.Movies.ToList());
+            IEnumerable<Movie> movies;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = from movie in db.Movies
+                         select movie;
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+            else
+            {
+                movies = db.Movies.ToList();
+            }
+
+            return View(movies);
         }
 
         // GET: /Movies/Details/5
