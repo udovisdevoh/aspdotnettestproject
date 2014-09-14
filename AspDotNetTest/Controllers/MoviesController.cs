@@ -24,8 +24,8 @@ namespace AspDotNetTest.Controllers
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                //movies = movies.Where(movie => movie.Title.Contains(searchString));
-                movies = movies.Where(movie => CultureInfo.CurrentCulture.CompareInfo.IndexOf(movie.Title, searchString, CompareOptions.IgnoreCase) != -1);                
+                movies = movies.Where(movie => movie.Title.Contains(searchString));
+                //movies = movies.Where(movie => CultureInfo.CurrentCulture.CompareInfo.IndexOf(movie.Title, searchString, CompareOptions.IgnoreCase) != -1);                
             }
 
             return View(movies);
