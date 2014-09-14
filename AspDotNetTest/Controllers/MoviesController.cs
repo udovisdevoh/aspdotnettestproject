@@ -17,15 +17,32 @@ namespace AspDotNetTest.Controllers
         private MovieDBContext db = new MovieDBContext();
 
         // GET: /Movies/
-        public ActionResult Index(string searchString)
+        public ActionResult Index(string movieGenre, string searchString)
         {
-            IEnumerable<Movie> movies = from m in db.Movies 
-                                        select m;
+            #region Gestion des genres
+            List<string> genreList = new List<string>();
 
-            if (!String.IsNullOrEmpty(searchString))
+            IEnumerable<string> genreQuery = from movie in db.Movies
+                                             orderby movie.Genre
+                                             select movie.Genre;
+
+            genreList.AddRange(genreQuery.Distinct());
+            ViewBag.movieGenre = new SelectList(genreList);
+            #endregion
+
+            IEnumerable<Movie> movies = from movie in db.Movies 
+                                        select movie;
+
+            if (!string.IsNullOrEmpty(searchString))
             {
                 movies = movies.Where(movie => movie.Title.Contains(searchString));
                 //movies = movies.Where(movie => CultureInfo.CurrentCulture.CompareInfo.IndexOf(movie.Title, searchString, CompareOptions.IgnoreCase) != -1);                
+            }
+
+
+            if (!string.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(movie => movie.Genre == movieGenre);
             }
 
             return View(movies);
