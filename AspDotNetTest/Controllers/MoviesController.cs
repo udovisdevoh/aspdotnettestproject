@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Globalization;
 using AspDotNetTest.Models;
 using AspDotNetTest.DBContexts;
 
@@ -18,17 +19,13 @@ namespace AspDotNetTest.Controllers
         // GET: /Movies/
         public ActionResult Index(string searchString)
         {
-            IEnumerable<Movie> movies;
+            IEnumerable<Movie> movies = from m in db.Movies 
+                                        select m;
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                movies = from movie in db.Movies
-                         select movie;
-                movies = movies.Where(s => s.Title.Contains(searchString));
-            }
-            else
-            {
-                movies = db.Movies.ToList();
+                //movies = movies.Where(movie => movie.Title.Contains(searchString));
+                movies = movies.Where(movie => CultureInfo.CurrentCulture.CompareInfo.IndexOf(movie.Title, searchString, CompareOptions.IgnoreCase) != -1);                
             }
 
             return View(movies);
