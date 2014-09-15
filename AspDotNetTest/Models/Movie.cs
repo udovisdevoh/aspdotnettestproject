@@ -23,11 +23,11 @@ namespace AspDotNetTest.Models
         [StringLength(30)]
         public string Genre { get; set; }
 
-        [Range(1, 100)]
-        [DataType(DataType.Currency)]
+        [Range(1, 100), DataType(DataType.Currency)]
         public decimal Price { get; set; }
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
+        [Required]
         [StringLength(5)]
         public string Rating { get; set; }
     }
