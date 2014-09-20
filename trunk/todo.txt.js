@@ -7,7 +7,7 @@ Tech
 			MVC
 			{
 				http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started
-				http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc/implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application
+				-> http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application
 				http://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database/?rnd=1
 				http://www.asp.net/aspnet/overview/developing-apps-with-windows-azure
 				
@@ -38,6 +38,9 @@ Tech
 				}
 				
 				custom code generation
+				{
+					http://www.hanselman.com/blog/ModifyingTheDefaultCodeGenerationscaffoldingTemplatesInASPNETMVC.aspx
+				}
 			}
 
 			.NET scaffolding model (from DB to model)
