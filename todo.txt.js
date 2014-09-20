@@ -59,4 +59,7 @@ Tech
 	Réviser C++
 	Réviser regex
 	Apprendre les bases de Perl
+	{
+		http://www.learnperl.org/
+	}
 }
