@@ -50,6 +50,11 @@ Tech
 		}
 		
 		Apprendre WCF
+		{
+			https://www.youtube.com/watch?v=1o_1trg2R04&index=2&list=WL
+		}
+		
+		apprendre .NET Remoting
 		
 		Réviser Linq
 		Apprendre pLinq
