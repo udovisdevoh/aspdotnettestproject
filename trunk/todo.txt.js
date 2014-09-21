@@ -53,6 +53,8 @@ Tech
 		{
 			http://msdn.microsoft.com/en-us/library/ms734712%28v=vs.110%29.aspx
 			http://msdn.microsoft.com/en-us/library/dd936243.aspx
+			http://msdn.microsoft.com/en-us/library/ms731067.aspx
+			http://msdn.microsoft.com/en-us/library/dd456779.aspx
 			https://www.youtube.com/watch?v=1o_1trg2R04&index=2&list=WL
 			http://www.codeproject.com/Articles/406096/A-beginners-tutorial-for-understanding-Windows
 		}
