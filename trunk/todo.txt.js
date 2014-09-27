@@ -64,17 +64,45 @@ Tech
 			http://www.codeproject.com/Articles/406096/A-beginners-tutorial-for-understanding-Windows
 		}
 		
-		Apprendre PLINQ
-		{
-			http://www.codeguru.com/csharp/csharp/cs_linq/article.php/c19975/A-Beginners-Guide-to-PLINQ.htm
-		}
-		
 		Apprendre à utiliser Team Foundation Server
 	}
 
 	Réviser C++
+	{
+		http://www.bobtacoindustries.com/Content/Devs/CsToCpp-ASomewhatShortGuide.pdf
+	}
+	
 	Apprendre les bases de Perl
 	{
 		http://www.learnperl.org/
+	}
+}
+
+HowTo
+{
+	PLINQ
+	{
+		http://www.codeguru.com/csharp/csharp/cs_linq/article.php/c19975/A-Beginners-Guide-to-PLINQ.htm
+		http://www.csharphelp.com/2011/01/plinq-tutorial/ //forAll()
+	}
+	
+	Parallel foreach
+	{
+		http://stackoverflow.com/questions/3789998/parallel-foreach-vs-foreachienumerablet-asparallel
+	}
+	
+	Fairly local
+	{
+		http://www.fairtutor.com/fairlylocal/
+	}
+	
+	custom code generation
+	{
+		http://www.hanselman.com/blog/ModifyingTheDefaultCodeGenerationscaffoldingTemplatesInASPNETMVC.aspx
+	}
+	
+	C++
+	{
+		http://www.bobtacoindustries.com/Content/Devs/CsToCpp-ASomewhatShortGuide.pdf
 	}
 }
