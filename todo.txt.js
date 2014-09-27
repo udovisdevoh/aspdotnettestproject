@@ -2,8 +2,6 @@ Tech
 {
 	C#
 	{
-		Apprendre à utiliser VSTS
-		
 		Apprendre WCF
 		{
 			http://msdn.microsoft.com/en-us/library/ms734712%28v=vs.110%29.aspx
