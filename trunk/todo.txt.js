@@ -34,11 +34,16 @@ Tech
 				DB
 				{
 					Trouver moyen d'éditer la collation de table pour avoir un Where qui est case insensitive
+					{
+						http://forums.asp.net/p/2011011/5784110.aspx?Re+Edit+table+or+column+s+collation+for+case+insensitive
+					}
 				
 					Créer index
 					{
 						unqiue
 						index à 2 clé
+						
+						http://forums.asp.net/p/2011016/5784082.aspx?Re+SQL+Server+Express+Create+indexes+unique+normal+index+etc
 					}
 				}
 				
