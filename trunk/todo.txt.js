@@ -18,6 +18,11 @@ Tech
 					http://msdn.microsoft.com/en-us/library/c6zyy3s9.aspx
 					http://www.c-sharpcorner.com/uploadfile/ankithakur/globalization_localization_in_dotnet_csharp07032006023510am/globalization_localization_in_dotnet_csharp.aspx
 					http://www.mikesdotnetting.com/Article/183/Globalization-And-Localization-With-Razor-Web-Pages
+					
+					Fairly local
+					{
+						http://www.fairtutor.com/fairlylocal/
+					}
 				}
 			
 				Apprendre à utiliser mot de passe encrypté / apprendre à utiliser authentification par default
@@ -59,13 +64,15 @@ Tech
 			http://www.codeproject.com/Articles/406096/A-beginners-tutorial-for-understanding-Windows
 		}
 		
-		Réviser Linq
-		Apprendre pLinq
+		Apprendre PLINQ
+		{
+			http://www.codeguru.com/csharp/csharp/cs_linq/article.php/c19975/A-Beginners-Guide-to-PLINQ.htm
+		}
+		
 		Apprendre à utiliser Team Foundation Server
 	}
 
 	Réviser C++
-	Réviser regex
 	Apprendre les bases de Perl
 	{
 		http://www.learnperl.org/
