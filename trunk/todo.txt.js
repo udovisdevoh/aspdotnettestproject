@@ -66,11 +66,6 @@ Tech
 		
 		Apprendre à utiliser Team Foundation Server
 	}
-
-	Réviser C++
-	{
-		http://www.bobtacoindustries.com/Content/Devs/CsToCpp-ASomewhatShortGuide.pdf
-	}
 	
 	Apprendre les bases de Perl
 	{
