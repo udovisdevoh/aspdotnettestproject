@@ -2,6 +2,18 @@ Tech
 {
 	C#
 	{
+		Apprendre à utiliser VSTS
+		
+		Apprendre WCF
+		{
+			http://msdn.microsoft.com/en-us/library/ms734712%28v=vs.110%29.aspx
+			http://msdn.microsoft.com/en-us/library/dd936243.aspx
+			http://msdn.microsoft.com/en-us/library/ms731067.aspx
+			http://msdn.microsoft.com/en-us/library/dd456779.aspx
+			https://www.youtube.com/watch?v=1o_1trg2R04&index=2&list=WL
+			http://www.codeproject.com/Articles/406096/A-beginners-tutorial-for-understanding-Windows
+		}
+		
 		Apprendre Asp.net
 		{	
 			MVC
@@ -58,23 +70,6 @@ Tech
 				http://www.asp.net/visual-studio/overview/2013/aspnet-scaffolding-overview
 			}
 		}
-		
-		Apprendre WCF
-		{
-			http://msdn.microsoft.com/en-us/library/ms734712%28v=vs.110%29.aspx
-			http://msdn.microsoft.com/en-us/library/dd936243.aspx
-			http://msdn.microsoft.com/en-us/library/ms731067.aspx
-			http://msdn.microsoft.com/en-us/library/dd456779.aspx
-			https://www.youtube.com/watch?v=1o_1trg2R04&index=2&list=WL
-			http://www.codeproject.com/Articles/406096/A-beginners-tutorial-for-understanding-Windows
-		}
-		
-		Apprendre à utiliser Team Foundation Server
-	}
-	
-	Apprendre les bases de Perl
-	{
-		http://www.learnperl.org/
 	}
 }
 
@@ -104,5 +99,10 @@ HowTo
 	C++
 	{
 		http://www.bobtacoindustries.com/Content/Devs/CsToCpp-ASomewhatShortGuide.pdf
+	}
+	
+	Perl
+	{
+		http://www.learnperl.org/
 	}
 }
