@@ -21,8 +21,6 @@ Tech
 				http://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database/?rnd=1
 				http://www.asp.net/aspnet/overview/developing-apps-with-windows-azure
 				
-				apprendre à faire des belongsTo, hasMany et hasAndBelongsToMany
-				
 				Faire site multilingue
 				{
 					http://msdn.microsoft.com/en-us/library/c6zyy3s9.aspx
@@ -42,18 +40,13 @@ Tech
 				Validations: faire des messages d'erreur custom
 				
 				DB
-				{
-					Trouver moyen d'éditer la collation de table pour avoir un Where qui est case insensitive
+				{									
+					Collations
 					{
-						http://forums.asp.net/p/2011011/5784110.aspx?Re+Edit+table+or+column+s+collation+for+case+insensitive
-					}
-				
-					Créer index
-					{
-						unqiue
-						index à 2 clé
-						
-						http://forums.asp.net/p/2011016/5784082.aspx?Re+SQL+Server+Express+Create+indexes+unique+normal+index+etc
+						Checker réponse à mon commentaire sur
+						{
+							http://www.asp.net/mvc/tutorials/mvc-5/introduction/adding-search
+						}
 					}
 				}
 				
@@ -102,5 +95,31 @@ HowTo
 	Perl
 	{
 		http://www.learnperl.org/
+	}
+	
+	DB
+	{
+		Index
+		{
+			http://www.c-sharpcorner.com/uploadfile/b19d5a/index-in-sql-server-2008/
+			
+			http://forums.asp.net/p/2011016/5784082.aspx?Re+SQL+Server+Express+Create+indexes+unique+normal+index+etc
+		}
+		
+		Collations
+		{		
+			Setter une collation
+			{
+				You can do so in design view (select column, in column properties pane) or run sql statements; something like
+
+				ALTER TABLE table-name
+				ALTER COLUMN col1 varchar(10) COLLATE SQL_Latin1_General_CP1_CI_AS
+			}
+		
+			Liste de collations
+			{
+				http://msdn.microsoft.com/en-us/library/ms144250(v=sql.105).aspx
+			}
+		}
 	}
 }
