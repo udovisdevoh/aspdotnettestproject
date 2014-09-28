@@ -77,9 +77,14 @@ HowTo
 		http://stackoverflow.com/questions/3789998/parallel-foreach-vs-foreachienumerablet-asparallel
 	}
 	
-	Fairly local
+	Localization
 	{
-		http://www.fairtutor.com/fairlylocal/
+		http://www.codeproject.com/Articles/262917/i-n-globalization-with-gettext-and-asp-net-mvc
+	
+		Fairly local
+		{
+			http://www.fairtutor.com/fairlylocal/
+		}
 	}
 	
 	custom code generation
