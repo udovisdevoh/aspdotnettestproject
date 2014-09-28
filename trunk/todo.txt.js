@@ -41,9 +41,7 @@ Tech
 				Apprendre à utiliser mot de passe encrypté / apprendre à utiliser authentification par default
 				
 				Apprendre gestion de droits
-				
-				Validations: faire des messages d'erreur custom
-				
+							
 				DB
 				{									
 					Collations
@@ -97,14 +95,29 @@ HowTo
 		http://www.hanselman.com/blog/ModifyingTheDefaultCodeGenerationscaffoldingTemplatesInASPNETMVC.aspx
 	}
 	
-	C++
+	Model
 	{
-		http://www.bobtacoindustries.com/Content/Devs/CsToCpp-ASomewhatShortGuide.pdf
-	}
+		Changer nom de colonne
+		{
+			[Column("FirstName")]
+		}
 	
-	Perl
-	{
-		http://www.learnperl.org/
+		Validations: faire des messages d'erreur custom
+		{
+			[StringLength(50, ErrorMessage = "First name cannot be longer than 50 characters.")]
+		}
+		
+		"Virtual Fields"
+		{
+			[Display(Name = "Full Name")]
+			public string FullName
+			{
+				get
+				{
+					return LastName + ", " + FirstMidName;
+				}
+			}
+		}
 	}
 	
 	DB
@@ -131,5 +144,15 @@ HowTo
 				http://msdn.microsoft.com/en-us/library/ms144250(v=sql.105).aspx
 			}
 		}
+	}
+	
+	C++
+	{
+		http://www.bobtacoindustries.com/Content/Devs/CsToCpp-ASomewhatShortGuide.pdf
+	}
+	
+	Perl
+	{
+		http://www.learnperl.org/
 	}
 }
