@@ -27,9 +27,14 @@ Tech
 					http://www.c-sharpcorner.com/uploadfile/ankithakur/globalization_localization_in_dotnet_csharp07032006023510am/globalization_localization_in_dotnet_csharp.aspx
 					http://www.mikesdotnetting.com/Article/183/Globalization-And-Localization-With-Razor-Web-Pages
 					
-					Fairly local
+					GetText
 					{
-						http://www.fairtutor.com/fairlylocal/
+						http://www.codeproject.com/Articles/262917/i-n-globalization-with-gettext-and-asp-net-mvc
+						
+						Fairly local
+						{
+							http://www.fairtutor.com/fairlylocal/
+						}
 					}
 				}
 			
