@@ -4,7 +4,7 @@ Tech
 	{
 		Apprendre WCF
 		{
-			-> http://msdn.microsoft.com/en-us/library/ms734712%28v=vs.110%29.aspx
+			http://msdn.microsoft.com/en-us/library/ms734712%28v=vs.110%29.aspx
 			http://msdn.microsoft.com/en-us/library/dd936243.aspx
 			http://msdn.microsoft.com/en-us/library/ms731067.aspx
 			http://msdn.microsoft.com/en-us/library/dd456779.aspx
